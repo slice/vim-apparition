@@ -49,6 +49,7 @@ hi  WinSeparator guifg=#404c4c  guibg=#404c4c gui=NONE
 hi  TabLineSel   guifg=#000000  guibg=#808070 gui=bold
 hi  TabLine      guifg=#000000  guibg=#404c4c gui=italic
 hi  TabLineFill  guifg=#000000  guibg=#404c4c gui=italic
+hi! link         VertSplit      WinSeparator
 
 hi  Comment      guifg=#707670  guibg=NONE    gui=italic
 
