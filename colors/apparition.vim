@@ -106,7 +106,10 @@ hi! link         diffSubname    diffLine
 
 hi! link         goFunctionCall Function
 hi! link         htmlTag        htmlTagName
+hi! link         htmlTagN       htmlTagName
+hi! link         htmlEndTag     htmlTagName
 hi! link         xmlTag         xmlTagName
-hi! link         xmlTagName     Statement
+hi! link         xmlTagName     htmlTagName
+hi! link         htmlTagName    Statement
 hi! link         xmlEqual       Operator
 hi! link         vimFunction    Function
