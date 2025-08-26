@@ -4,6 +4,7 @@ hi clear
 let g:colors_name = "apparition"
 
 hi  Normal       guifg=#c2c2b0  guibg=#202020 gui=NONE
+hi! link         Terminal       Normal
 
 hi  ColorColumn  guifg=NONE     guibg=#000000 gui=NONE
 hi  CursorLine   guifg=NONE     guibg=#2a2a2a gui=NONE
@@ -113,3 +114,22 @@ hi! link         xmlTagName     htmlTagName
 hi! link         htmlTagName    Statement
 hi! link         xmlEqual       Operator
 hi! link         vimFunction    Function
+
+let g:terminal_ansi_colors = [
+			\ "#000000",
+			\ "#996666",
+			\ "#719611",
+			\ "#808070",
+			\ "#6689ad",
+			\ "#5d6a85",
+			\ "#528b8b",
+			\ "#c2c2b0",
+			\ "#707670",
+			\ "#cc8800",
+			\ "#779b70",
+			\ "#faf4c6",
+			\ "#90b0d1",
+			\ "#7e8aa2",
+			\ "#58b8b8",
+			\ "#c2c2b0",
+			\ ]
