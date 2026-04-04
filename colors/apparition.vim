@@ -117,6 +117,10 @@ hi! link         vimUserFunc     Function
 hi! link         vimFunctionName Function
 hi! link         vimBracket      vimNotation
 
+if has("nvim")
+	hi @variable guifg=NONE guibg=NONE gui=NONE
+endif
+
 let g:terminal_ansi_colors = [
 			\ "#000000",
 			\ "#996666",
