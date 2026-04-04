@@ -113,7 +113,7 @@ hi! link         xmlTag         xmlTagName
 hi! link         xmlTagName     htmlTagName
 hi! link         htmlTagName    Statement
 hi! link         xmlEqual       Operator
-hi! link         vimFunction    Function
+hi! link         vimUserFunc    Function
 
 let g:terminal_ansi_colors = [
 			\ "#000000",
