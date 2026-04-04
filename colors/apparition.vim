@@ -12,6 +12,7 @@ hi  Folded       guifg=#406060   guibg=#232c2c gui=NONE
 hi  LineNr       guifg=#686858   guibg=#000000 gui=NONE
 hi  CursorLineNr guifg=#686858   guibg=#151515 gui=NONE
 hi! link         CursorColumn    CursorLine
+hi! link         SignColumn      LineNr
 
 hi  Visual       guifg=#000000   guibg=#6688aa gui=NONE
 
