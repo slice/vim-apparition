@@ -114,6 +114,7 @@ hi! link         xmlTagName     htmlTagName
 hi! link         htmlTagName    Statement
 hi! link         xmlEqual       Operator
 hi! link         vimUserFunc    Function
+hi! link         vimBracket     vimNotation
 
 let g:terminal_ansi_colors = [
 			\ "#000000",
