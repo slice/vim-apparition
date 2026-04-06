@@ -31,6 +31,7 @@ hi  WildMenu     guifg=#000000   guibg=#87ceeb gui=NONE
 
 hi  Title        guifg=#528b8b   guibg=NONE    gui=bold
 hi  Directory    guifg=#1e90ff   guibg=NONE    gui=NONE
+hi  Underlined   guifg=#80a0ff   guibg=NONE    gui=underline
 hi  NonText      guifg=#404050   guibg=NONE    gui=NONE
 hi  SpecialKey   guifg=#505060   guibg=NONE    gui=NONE
 
