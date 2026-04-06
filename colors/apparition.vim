@@ -121,6 +121,22 @@ hi! link         vimBracket      vimNotation
 
 if has("nvim")
 	hi @variable guifg=NONE guibg=NONE gui=NONE
+	let g:terminal_color_0  = "#000000"
+	let g:terminal_color_1  = "#996666"
+	let g:terminal_color_2  = "#719611"
+	let g:terminal_color_3  = "#808070"
+	let g:terminal_color_4  = "#6689ad"
+	let g:terminal_color_5  = "#5d6a85"
+	let g:terminal_color_6  = "#528b8b"
+	let g:terminal_color_7  = "#c2c2b0"
+	let g:terminal_color_8  = "#707670"
+	let g:terminal_color_9  = "#cc8800"
+	let g:terminal_color_10 = "#779b70"
+	let g:terminal_color_11 = "#faf4c6"
+	let g:terminal_color_12 = "#90b0d1"
+	let g:terminal_color_13 = "#7e8aa2"
+	let g:terminal_color_14 = "#58b8b8"
+	let g:terminal_color_15 = "#c2c2b0"
 endif
 
 let g:terminal_ansi_colors = [
